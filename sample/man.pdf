@@ -1,0 +1,987 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R]
+/Count 14
+>>
+endobj
+3 0 obj
+<<
+/Font <<
+/F0 <<
+/Type /Font
+/BaseFont /KozMinPro6N-Regular
+/Subtype /Type0
+/Encoding /90ms-RKSJ-H
+/DescendantFonts [4 0 R]
+>>
+>>
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /CIDFontType0
+/BaseFont /KozMinPro6N-Regular
+/CIDSystemInfo <<
+/Registry (Adobe)
+/Ordering (Japan1)
+/Supplement 6
+>>
+/FontDescriptor 5 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /FontDescriptor
+/FontName /KozMinPro6N-Regular
+/Flags 6
+/FontBBox [-437 -340 1147 1317]
+/ItalicAngle 0
+/Ascent 1317
+/Descent -349
+/CapHeight 742
+/StemV 80
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 18 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 19 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 20 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 21 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 22 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 23 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 24 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 25 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 26 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 27 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 28 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 29 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 30 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources 3 0 R
+/MediaBox [0 0 595 842]
+/Contents 31 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 3195
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(MAN\(1\)					     Manual pager utils 				     MAN\(1\)) Tj T*
+() Tj T*
+(NAME) Tj T*
+(       man - an interface to the on-line reference manuals) Tj T*
+() Tj T*
+(SYNOPSIS) Tj T*
+(       man  [-C  file]	[-d]  [-D]  [--warnings[=warnings]] [-R encoding] [-L locale] [-m system[,...]] [-M) Tj T*
+(       path] [-S list] [-e extension] [-i|-I] [--regex|--wildcard] [--names-only] [-a] [-u] [--no-subpages]) Tj T*
+(       [-P  pager]  [-r prompt] [-7] [-E encoding] [--no-hyphenation] [--no-justification] [-p string] [-t]) Tj T*
+(       [-T[device]] [-H[browser]] [-X[dpi]] [-Z] [[section] page[.section] ...] ...) Tj T*
+(       man -k [apropos options] regexp ...) Tj T*
+(       man -K [-w|-W] [-S list] [-i|-I] [--regex] [section] term ...) Tj T*
+(       man -f [whatis options] page ...) Tj T*
+(       man -l [-C file] [-d] [-D] [--warnings[=warnings]] [-R encoding] [-L locale] [-P pager] [-r  prompt]) Tj T*
+(       [-7] [-E encoding] [-p string] [-t] [-T[device]] [-H[browser]] [-X[dpi]] [-Z] file ...) Tj T*
+(       man -w|-W [-C file] [-d] [-D] page ...) Tj T*
+(       man -c [-C file] [-d] [-D] page ...) Tj T*
+(       man [-?V]) Tj T*
+() Tj T*
+(DESCRIPTION) Tj T*
+<202020202020206D616E2020697309746865202073797374656D2773206D616E75616C2070616765722E202045616368207061676520617267756D656E7420676976656E20746F206D616E206973206E6F726D616C6C7920746865206E616D65206F6620612070726F815D> Tj T*
+(       gram, utility or function.  The manual page associated with each of these arguments  is	then  found) Tj T*
+(       and  displayed.	A section, if provided, will direct man to look only in that section of the manual.) Tj T*
+(       The default action is to search in all of the available sections following a pre-defined order \("1 n) Tj T*
+(       l  8  3	2 3posix 3pm 3perl 3am 5 4 9 6 7" by default, unless overridden by the SECTION directive in) Tj T*
+<202020202020202F6574632F6D616E706174682E636F6E666967292C20616E6420746F2073686F77206F6E6C7920746865206669727374207061676520666F756E642C206576656E206966207061676520206578697374732020696E20207365766572616C2020736563815D> Tj T*
+(       tions.) Tj T*
+() Tj T*
+(       The table below shows the section numbers of the manual followed by the types of pages they contain.) Tj T*
+() Tj T*
+(       1   Executable programs or shell commands) Tj T*
+(       2   System calls \(functions provided by the kernel\)) Tj T*
+(       3   Library calls \(functions within program libraries\)) Tj T*
+(       4   Special files \(usually found in /dev\)) Tj T*
+(       5   File formats and conventions eg /etc/passwd) Tj T*
+(       6   Games) Tj T*
+(       7   Miscellaneous \(including macro packages and conventions\), e.g. man\(7\), groff\(7\)) Tj T*
+(       8   System administration commands \(usually only for root\)) Tj T*
+(       9   Kernel routines [Non standard]) Tj T*
+() Tj T*
+(       A manual page consists of several sections.) Tj T*
+() Tj T*
+(       Conventional section names include NAME, SYNOPSIS, CONFIGURATION, DESCRIPTION, OPTIONS, EXIT STATUS,) Tj T*
+(       RETURN VALUE, ERRORS, ENVIRONMENT, FILES, VERSIONS, CONFORMING TO, NOTES,  BUGS,  EXAMPLE,  AUTHORS,) Tj T*
+(       and SEE ALSO.) Tj T*
+ET
+endstream
+endobj
+19 0 obj
+<<
+/Length 2966
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+() Tj T*
+<202020202020205468652020666F6C6C6F77696E672020636F6E76656E74696F6E7320206170706C792020746F207468652053594E4F505349532073656374696F6E20616E642063616E2062652075736564206173206120677569646520696E206F7468657220736563815D> Tj T*
+(       tions.) Tj T*
+() Tj T*
+(       bold text	  type exactly as shown.) Tj T*
+(       italic text	  replace with appropriate argument.) Tj T*
+(       [-abc]		  any or all arguments within [ ] are optional.) Tj T*
+(       -a|-b		  options delimited by | cannot be used together.) Tj T*
+(       argument ...	  argument is repeatable.) Tj T*
+(       [expression] ...   entire expression within [ ] is repeatable.) Tj T*
+() Tj T*
+(       Exact rendering may vary depending on the output device.  For instance, man will usually not be able) Tj T*
+(       to  render  italics  when  running in a terminal, and will typically use underlined or coloured text) Tj T*
+(       instead.) Tj T*
+() Tj T*
+(       The command or function illustration is a pattern that should match all	possible  invocations.	 In) Tj T*
+(       some  cases  it is advisable to illustrate several exclusive invocations as is shown in the SYNOPSIS) Tj T*
+(       section of this manual page.) Tj T*
+() Tj T*
+(EXAMPLES) Tj T*
+(       man ls) Tj T*
+(	   Display the manual page for the item \(program\) ls.) Tj T*
+() Tj T*
+(       man man.7) Tj T*
+(	   Display the manual page for macro package man from section 7.) Tj T*
+() Tj T*
+(       man -a intro) Tj T*
+(	   Display, in succession, all of the available intro manual pages contained within the manual.  It) Tj T*
+(	   is possible to quit between successive displays or skip any of them.) Tj T*
+() Tj T*
+(       man -t alias | lpr -Pps) Tj T*
+(	   Format  the	manual	page  referenced  by `alias', usually a shell manual page, into the default) Tj T*
+<0920202074726F6666206F722067726F666620666F726D617420616E64207069706520697420746F20746865207072696E746572206E616D65642070732E20205468652064656661756C74206F757470757420666F722067726F666620697320757375815D> Tj T*
+(	   ally PostScript.  man --help should advise as to which processor is bound to the -t option.) Tj T*
+() Tj T*
+(       man -l -Tdvi ./foo.1x.gz > ./foo.1x.dvi) Tj T*
+(	   This  command  will decompress and format the nroff source manual page ./foo.1x.gz into a device) Tj T*
+(	   independent \(dvi\) file.  The redirection is necessary  as  the  -T  flag  causes  output  to  be) Tj T*
+(	   directed  to  stdout  with  no pager.  The output could be viewed with a program such as xdvi or) Tj T*
+(	   further processed into PostScript using a program such as dvips.) Tj T*
+() Tj T*
+(       man -k printf) Tj T*
+<09202020536561726368207468652073686F7274206465736372697074696F6E7320616E64206D616E75616C2070616765206E616D657320666F7220746865206B6579776F7264207072696E7466202061732020726567756C61722020657870726573815D> Tj T*
+(	   sion.  Print out any matches.  Equivalent to apropos printf.) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+20 0 obj
+<<
+/Length 4248
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(       man -f smail) Tj T*
+(	   Lookup  the	manual pages referenced by smail and print out the short descriptions of any found.) Tj T*
+(	   Equivalent to whatis smail.) Tj T*
+() Tj T*
+(OVERVIEW) Tj T*
+(       Many options are available to man in order to give as much flexibility  as  possible  to  the  user.) Tj T*
+(       Changes	can  be  made to the search path, section order, output processor, and other behaviours and) Tj T*
+(       operations detailed below.) Tj T*
+() Tj T*
+(       If set, various environment variables are interrogated to determine the operation  of  man.   It  is) Tj T*
+(       possible  to  set  the  `catch  all'  variable $MANOPT to any string in command line format with the) Tj T*
+<20202020202020657863657074696F6E207468617420616E792073706163657320757365642061732070617274206F6620616E206F7074696F6E277320617267756D656E74206D757374206265206573636170656420287072656365646564206279206120206261636B815D> Tj T*
+(       slash\).	 man  will parse $MANOPT prior to parsing its own command line.  Those options requiring an) Tj T*
+(       argument will be overridden by the same options found on the command line.   To	reset  all  of	the) Tj T*
+(       options set in $MANOPT, -D can be specified as the initial command line option.	This will allow man) Tj T*
+(       to `forget' about the options specified in $MANOPT although they must still have been valid.) Tj T*
+() Tj T*
+(       The manual pager utilities packaged as man-db make extensive use of index  database  caches.   These) Tj T*
+(       caches  contain	information  such as where each manual page can be found on the filesystem and what) Tj T*
+(       its whatis \(short one line description of the man page\) contains, and allow man to run  faster  than) Tj T*
+(       if  it  had  to	search	the filesystem each time to find the appropriate manual page.  If requested) Tj T*
+(       using the -u option, man will ensure that the caches remain consistent, which can obviate  the  need) Tj T*
+(       to manually run software to update traditional whatis text databases.) Tj T*
+() Tj T*
+(       If  man cannot find a mandb initiated index database for a particular manual page hierarchy, it will) Tj T*
+(       still search for the requested manual pages, although file globbing  will  be  necessary  to  search) Tj T*
+<2020202020202077697468696E202074686174206869657261726368792E09496620776861746973206F72206170726F706F73206661696C7320746F2066696E6420616E20696E6465782069742077696C6C2074727920746F206578747261637420696E666F726D61815D> Tj T*
+(       tion from a traditional whatis database instead.) Tj T*
+() Tj T*
+(       These utilities support compressed source nroff files having, by default, the extensions of  .Z,  .z) Tj T*
+(       and  .gz.  It is possible to deal with any compression extension, but this information must be known) Tj T*
+(       at compile time.  Also, by default, any cat pages produced are compressed using gzip.  Each `global') Tj T*
+(       manual  page  hierarchy	such  as /usr/share/man or /usr/X11R6/man may have any directory as its cat) Tj T*
+(       page hierarchy.	Traditionally the cat pages are stored under the same hierarchy as the	man  pages,) Tj T*
+(       but  for  reasons  such as those specified in the File Hierarchy Standard \(FHS\), it may be better to) Tj T*
+(       store them elsewhere.  For details on how to do this, please read manpath\(5\).  For details on why to) Tj T*
+(       do this, read the standard.) Tj T*
+() Tj T*
+(       International  support  is available with this package.	Native language manual pages are accessible) Tj T*
+<2020202020202028696620617661696C61626C65206F6E20796F75722073797374656D292076696120757365206F66206C6F63616C652066756E6374696F6E732E2020546F206163746976617465207375636820737570706F72742C2069742020697320206E65636573815D> Tj T*
+<202020202020207361727920746F207365742065697468657220244C435F4D455353414745532C20244C414E47206F7220616E6F746865722073797374656D20646570656E64656E7420656E7669726F6E6D656E74207661726961626C6520746F20796F7572206C616E815D> Tj T*
+(       guage locale, usually specified in the POSIX 1003.1 based format:) Tj T*
+() Tj T*
+(       <language>[_<territory>[.<character-set>[,<version>]]]) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+21 0 obj
+<<
+/Length 4128
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+<202020202020204966207468652064657369726564207061676520697320617661696C61626C6520696E20796F7572206C6F63616C652C2069742077696C6C20626520646973706C6179656420696E206C696575206F6620746865207374616E64617264202028757375815D> Tj T*
+(       ally American English\) page.) Tj T*
+() Tj T*
+(       Support	for  international message catalogues is also featured in this package and can be activated) Tj T*
+<20202020202020696E207468652073616D65207761792C20616761696E20696620617661696C61626C652E2020496620796F752066696E64207468617420746865206D616E75616C20706167657320616E64206D65737361676520636174616C6F677565732020737570815D> Tj T*
+(       plied with this package are not available in your native language and you would like to supply them,) Tj T*
+(       please contact the maintainer who will be coordinating such activity.) Tj T*
+() Tj T*
+(       For information regarding other features and extensions available with  this  manual  pager,  please) Tj T*
+(       read the documents supplied with the package.) Tj T*
+() Tj T*
+(DEFAULTS) Tj T*
+(       man  will  search for the desired manual pages within the index database caches. If the -u option is) Tj T*
+(       given, a cache consistency check is  performed  to  ensure  the	databases  accurately  reflect	the) Tj T*
+(       filesystem.   If  this  option is always given, it is not generally necessary to run mandb after the) Tj T*
+(       caches are initially created, unless a cache becomes corrupt.  However, the cache consistency  check) Tj T*
+<2020202020202063616E20626520736C6F77206F6E2073797374656D732077697468206D616E79206D616E75616C20706167657320696E7374616C6C65642C20736F206974206973206E6F7420706572666F726D65642062792064656661756C742C20616E6420737973815D> Tj T*
+(       tem administrators may wish to run mandb every week or so to keep the  database	caches	fresh.	 To) Tj T*
+(       forestall  problems caused by outdated caches, man will fall back to file globbing if a cache lookup) Tj T*
+(       fails, just as it would if no cache was present.) Tj T*
+() Tj T*
+(       Once a manual page has been located, a check is performed to find out  if  a  relative  preformatted) Tj T*
+(       `cat'  file  already  exists and is newer than the nroff file.  If it does and is, this preformatted) Tj T*
+(       file is \(usually\) decompressed and then displayed, via use of a pager.  The pager can  be  specified) Tj T*
+(       in a number of ways, or else will fall back to a default is used \(see option -P for details\).  If no) Tj T*
+(       cat is found or is older than the nroff file, the nroff is filtered through various programs and  is) Tj T*
+(       shown immediately.) Tj T*
+() Tj T*
+(       If a cat file can be produced \(a relative cat directory exists and has appropriate permissions\), man) Tj T*
+(       will compress and store the cat file in the background.) Tj T*
+() Tj T*
+<202020202020205468652066696C746572732061726520646563697068657265642062792061206E756D626572206F66206D65616E732E202046697273746C792C2074686520636F6D6D616E64206C696E65206F7074696F6E202D70206F7220207468652020656E7669815D> Tj T*
+(       ronment	variable  $MANROFFSEQ is interrogated.	If -p was not used and the environment variable was) Tj T*
+(       not set, the initial line of the nroff file is parsed for a preprocessor string.  To contain a valid) Tj T*
+(       preprocessor string, the first line must resemble) Tj T*
+() Tj T*
+(       '\\" <string>) Tj T*
+() Tj T*
+(       where string can be any combination of letters described by option -p below.) Tj T*
+() Tj T*
+(       If none of the above methods provide any filter information, a default set is used.) Tj T*
+() Tj T*
+(       A  formatting  pipeline is formed from the filters and the primary formatter \(nroff or [tg]roff with) Tj T*
+(       -t\) and executed.  Alternatively, if an executable program mandb_nfmt \(or mandb_tfmt with -t\) exists) Tj T*
+<20202020202020696E20746865206D616E207472656520726F6F742C20697420697320657865637574656420696E73746561642E2020497420676574732070617373656420746865206D616E75616C20736F757263652066696C652C207468652070726570726F636573815D> Tj T*
+ET
+endstream
+endobj
+22 0 obj
+<<
+/Length 2622
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(       sor string, and optionally the device specified with -T or -E as arguments.) Tj T*
+() Tj T*
+(OPTIONS) Tj T*
+(       Non argument options that are duplicated either on the command line, in $MANOPT, or  both,  are	not) Tj T*
+(       harmful.  For options that require an argument, each duplication will override the previous argument) Tj T*
+(       value.) Tj T*
+() Tj T*
+(   General options) Tj T*
+(       -C file, --config-file=file) Tj T*
+(	      Use this user configuration file rather than the default of ~/.manpath.) Tj T*
+() Tj T*
+(       -d, --debug) Tj T*
+(	      Print debugging information.) Tj T*
+() Tj T*
+(       -D, --default) Tj T*
+(	      This option is normally issued as the very first option and resets  man's  behaviour  to	its) Tj T*
+(	      default.	 Its  use is to reset those options that may have been set in $MANOPT.	Any options) Tj T*
+(	      that follow -D will have their usual effect.) Tj T*
+() Tj T*
+(       --warnings[=warnings]) Tj T*
+(	      Enable warnings from groff.  This may be used to perform sanity checks on the source text  of) Tj T*
+(	      manual  pages.   warnings  is a comma-separated list of warning names; if it is not supplied,) Tj T*
+<092020202020207468652064656661756C7420697320226D6163222E2020536565207468652081675761726E696E67738168206E6F646520696E20696E666F2067726F666620666F722061206C697374206F6620617661696C61626C6520207761726E696E67> Tj T*
+(	      names.) Tj T*
+() Tj T*
+(   Main modes of operation) Tj T*
+(       -f, --whatis) Tj T*
+(	      Equivalent  to  whatis.  Display a short description from the manual page, if available.	See) Tj T*
+(	      whatis\(1\) for details.) Tj T*
+() Tj T*
+(       -k, --apropos) Tj T*
+(	      Equivalent to apropos.  Search the short manual page descriptions for  keywords  and  display) Tj T*
+(	      any matches.  See apropos\(1\) for details.) Tj T*
+() Tj T*
+(       -K, --global-apropos) Tj T*
+(	      Search  for  text  in  all manual pages.	This is a brute-force search, and is likely to take) Tj T*
+(	      some time; if you can, you should specify a section to reduce the number of pages  that  need) Tj T*
+(	      to  be searched.	Search terms may be simple strings \(the default\), or regular expressions if) Tj T*
+(	      the --regex option is used.) Tj T*
+() Tj T*
+(	      Note that this searches the sources of the manual pages, not the rendered text,  and  so	may) Tj T*
+(	      include  false positives due to things like comments in source files.  Searching the rendered) Tj T*
+(	      text would be much slower.) Tj T*
+() Tj T*
+(       -l, --local-file) Tj T*
+ET
+endstream
+endobj
+23 0 obj
+<<
+/Length 3327
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(	      Activate `local' mode.  Format and display local manual files instead  of  searching  through) Tj T*
+(	      the  system's  manual  collection.  Each manual page argument will be interpreted as an nroff) Tj T*
+(	      source file in the correct format.  No cat file is produced.  If '-' is listed as one of	the) Tj T*
+(	      arguments,  input  will  be taken from stdin.  When this option is not used, and man fails to) Tj T*
+(	      find the page required, before displaying the error message, it attempts to act  as  if  this) Tj T*
+(	      option was supplied, using the name as a filename and looking for an exact match.) Tj T*
+() Tj T*
+(       -w, --where, --path, --location) Tj T*
+(	      Don't  actually  display	the  manual pages, but do print the location\(s\) of the source nroff) Tj T*
+(	      files that would be formatted.) Tj T*
+() Tj T*
+(       -W, --where-cat, --location-cat) Tj T*
+(	      Don't actually display the manual pages, but do print the location\(s\) of the cat	files  that) Tj T*
+(	      would be displayed.  If -w and -W are both specified, print both separated by a space.) Tj T*
+() Tj T*
+(       -c, --catman) Tj T*
+(	      This option is not for general use and should only be used by the catman program.) Tj T*
+() Tj T*
+(       -R encoding, --recode=encoding) Tj T*
+(	      Instead  of  formatting  the manual page in the usual way, output its source converted to the) Tj T*
+(	      specified encoding.  If you already know the encoding of the source file, you  can  also	use) Tj T*
+(	      manconv\(1\)  directly.   However,	this option allows you to convert several manual pages to a) Tj T*
+(	      single encoding without having to explicitly state the encoding of each, provided  that  they) Tj T*
+(	      were already installed in a structure similar to a manual page hierarchy.) Tj T*
+() Tj T*
+(   Finding manual pages) Tj T*
+(       -L locale, --locale=locale) Tj T*
+(	      man  will  normally  determine  your  current locale by a call to the C function setlocale\(3\)) Tj T*
+(	      which interrogates various environment variables, possibly including $LC_MESSAGES and  $LANG.) Tj T*
+(	      To  temporarily  override  the  determined  value,  use this option to supply a locale string) Tj T*
+(	      directly to man.	Note that it will not take effect  until  the  search  for  pages  actually) Tj T*
+(	      begins.  Output such as the help message will always be displayed in the initially determined) Tj T*
+(	      locale.) Tj T*
+() Tj T*
+(       -m system[,...], --systems=system[,...]) Tj T*
+(	      If this system has access to other operating system's manual  pages,  they  can  be  accessed) Tj T*
+(	      using  this option.  To search for a manual page from NewOS's manual page collection, use the) Tj T*
+(	      option -m NewOS.) Tj T*
+() Tj T*
+(	      The system specified can be a combination of comma  delimited  operating	system	names.	 To) Tj T*
+(	      include  a  search of the native operating system's manual pages, include the system name man) Tj T*
+(	      in the argument string.  This option will override the $SYSTEM environment variable.) Tj T*
+() Tj T*
+(       -M path, --manpath=path) Tj T*
+(	      Specify an alternate manpath to use.  By default, man uses manpath derived code to  determine) Tj T*
+ET
+endstream
+endobj
+24 0 obj
+<<
+/Length 3176
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(	      the  path  to  search.   This  option  overrides the $MANPATH environment variable and causes) Tj T*
+(	      option -m to be ignored.) Tj T*
+() Tj T*
+(	      A path specified as a manpath must be the root of a manual  page	hierarchy  structured  into) Tj T*
+(	      sections	as described in the man-db manual \(under "The manual page system"\).  To view manual) Tj T*
+(	      pages outside such hierarchies, see the -l option.) Tj T*
+() Tj T*
+(       -S list, -s list, --sections=list) Tj T*
+(	      List is a colon- or comma-separated list of `order specific' manual sections to search.  This) Tj T*
+(	      option  overrides  the  $MANSECT environment variable.  \(The -s spelling is for compatibility) Tj T*
+(	      with System V.\)) Tj T*
+() Tj T*
+(       -e sub-extension, --extension=sub-extension) Tj T*
+(	      Some systems incorporate large packages of manual pages, such as those that accompany the Tcl) Tj T*
+(	      package, into the main manual page hierarchy.  To get around the problem of having two manual) Tj T*
+(	      pages with the same name such as exit\(3\), the Tcl pages were usually all assigned to  section) Tj T*
+(	      l.   As  this is unfortunate, it is now possible to put the pages in the correct section, and) Tj T*
+(	      to assign a specific `extension' to them, in this case, exit\(3tcl\).  Under normal  operation,) Tj T*
+(	      man  will  display  exit\(3\)  in preference to exit\(3tcl\).  To negotiate this situation and to) Tj T*
+(	      avoid having to know which section the page you require resides in, it  is  now  possible  to) Tj T*
+(	      give  man a sub-extension string indicating which package the page must belong to.  Using the) Tj T*
+(	      above example, supplying the option -e tcl to man will restrict the search to pages having an) Tj T*
+(	      extension of *tcl.) Tj T*
+() Tj T*
+(       -i, --ignore-case) Tj T*
+(	      Ignore case when searching for manual pages.  This is the default.) Tj T*
+() Tj T*
+(       -I, --match-case) Tj T*
+(	      Search for manual pages case-sensitively.) Tj T*
+() Tj T*
+(       --regex) Tj T*
+(	      Show  all  pages with any part of either their names or their descriptions matching each page) Tj T*
+(	      argument as a regular expression, as with apropos\(1\).  Since there is usually  no  reasonable) Tj T*
+(	      way to pick a "best" page when searching for a regular expression, this option implies -a.) Tj T*
+() Tj T*
+(       --wildcard) Tj T*
+(	      Show  all  pages with any part of either their names or their descriptions matching each page) Tj T*
+(	      argument using shell-style wildcards, as with apropos\(1\) --wildcard.  The page argument  must) Tj T*
+(	      match  the entire name or description, or match on word boundaries in the description.  Since) Tj T*
+(	      there is usually no reasonable way to pick a "best" page when searching for a wildcard,  this) Tj T*
+(	      option implies -a.) Tj T*
+() Tj T*
+(       --names-only) Tj T*
+(	      If the --regex or --wildcard option is used, match only page names, not page descriptions, as) Tj T*
+(	      with whatis\(1\).  Otherwise, no effect.) Tj T*
+ET
+endstream
+endobj
+25 0 obj
+<<
+/Length 2831
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+() Tj T*
+(       -a, --all) Tj T*
+(	      By default, man will exit after displaying the most suitable manual  page  it  finds.   Using) Tj T*
+<092020202020207468697320206F7074696F6E20666F72636573206D616E20746F20646973706C617920616C6C20746865206D616E75616C2070616765732077697468206E616D65732074686174206D61746368207468652073656172636820637269815D> Tj T*
+(	      teria.) Tj T*
+() Tj T*
+(       -u, --update) Tj T*
+(	      This option causes man to perform an `inode level' consistency check on its  database  caches) Tj T*
+(	      to  ensure  that	they are an accurate representation of the filesystem.	It will only have a) Tj T*
+(	      useful effect if man is installed with the setuid bit set.) Tj T*
+() Tj T*
+(       --no-subpages) Tj T*
+(	      By default, man will try to interpret pairs of manual page names given on the command line as) Tj T*
+(	      equivalent  to a single manual page name containing a hyphen or an underscore.  This supports) Tj T*
+<0920202020202074686520636F6D6D6F6E207061747465726E206F662070726F6772616D73207468617420696D706C656D656E742061206E756D626572206F6620737562636F6D6D616E64732C20616C6C6F77696E67207468656D20746F202070726F815D> Tj T*
+(	      vide  manual  pages  for	each  that can be accessed using similar syntax as would be used to) Tj T*
+(	      invoke the subcommands themselves.  For example:) Tj T*
+() Tj T*
+(		$ man -aw git diff) Tj T*
+(		/usr/share/man/man1/git-diff.1.gz) Tj T*
+() Tj T*
+(	      To disable this behaviour, use the --no-subpages option.) Tj T*
+() Tj T*
+(		$ man -aw --no-subpages git diff) Tj T*
+(		/usr/share/man/man1/git.1.gz) Tj T*
+(		/usr/share/man/man3/Git.3pm.gz) Tj T*
+(		/usr/share/man/man1/diff.1.gz) Tj T*
+() Tj T*
+(   Controlling formatted output) Tj T*
+(       -P pager, --pager=pager) Tj T*
+(	      Specify which output pager to use.  By default, man uses pager, falling back to cat if  pager) Tj T*
+(	      is not found or is not executable.  This option overrides the $MANPAGER environment variable,) Tj T*
+(	      which in turn overrides the $PAGER environment variable.	It is not used in conjunction  with) Tj T*
+(	      -f or -k.) Tj T*
+() Tj T*
+(	      The value may be a simple command name or a command with arguments, and may use shell quoting) Tj T*
+(	      \(backslashes, single quotes, or double quotes\).  It may not use  pipes  to  connect  multiple) Tj T*
+(	      commands;  if  you need that, use a wrapper script, which may take the file to display either) Tj T*
+(	      as an argument or on standard input.) Tj T*
+() Tj T*
+(       -r prompt, --prompt=prompt) Tj T*
+(	      If a recent version of less is used as the pager, man will attempt to set its prompt and some) Tj T*
+(	      sensible options.  The default prompt looks like) Tj T*
+() Tj T*
+(	       Manual page name\(sec\) line x) Tj T*
+ET
+endstream
+endobj
+26 0 obj
+<<
+/Length 3464
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+() Tj T*
+(	      where name denotes the manual page name, sec denotes the section it was found under and x the) Tj T*
+(	      current line number.  This is achieved by using the $LESS environment variable.) Tj T*
+() Tj T*
+(	      Supplying -r with a string will override this default.   The  string  may  contain  the  text) Tj T*
+(	      $MAN_PN  which  will  be expanded to the name of the current manual page and its section name) Tj T*
+(	      surrounded by `\(' and `\)'.  The string used to produce the default could be expressed as) Tj T*
+() Tj T*
+(	      \\ Manual\\ page\\ \\$MAN_PN\\ ?ltline\\ %lt?L/%L.:) Tj T*
+(	      byte\\ %bB?s/%s..?\\ \(END\):?pB\\ %pB\\\\%..) Tj T*
+(	      \(press h for help or q to quit\)) Tj T*
+() Tj T*
+(	      It is broken into three lines here for the sake of readability only.  For its meaning see the) Tj T*
+(	      less\(1\)  manual page.  The prompt string is first evaluated by the shell.  All double quotes,) Tj T*
+(	      back-quotes and backslashes in the prompt must be escaped  by  a	preceding  backslash.	The) Tj T*
+(	      prompt  string may end in an escaped $ which may be followed by further options for less.  By) Tj T*
+(	      default man sets the -ix8 options.) Tj T*
+() Tj T*
+(	      The $MANLESS environment variable described below may be used to set a default prompt  string) Tj T*
+(	      if none is supplied on the command line.) Tj T*
+() Tj T*
+(       -7, --ascii) Tj T*
+<092020202020205768656E2076696577696E6720612070757265206173636969283729206D616E75616C2070616765206F6E2061203720626974207465726D696E616C206F72207465726D696E616C20656D756C61746F722C20736F6D652063686172815D> Tj T*
+(	      acters may not display correctly when using the latin1\(7\) device description with GNU  nroff.) Tj T*
+(	      This  option  allows pure ascii manual pages to be displayed in ascii with the latin1 device.) Tj T*
+(	      It will not translate any latin1 text.  The following table shows the translations performed:) Tj T*
+(	      some parts of it may only be displayed properly when using GNU nroff's latin1\(7\) device.) Tj T*
+() Tj T*
+(	      Description	    Octal   latin1   ascii) Tj T*
+<09202020202020849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F849F> Tj T*
+() Tj T*
+<09202020202020636F6E74696E756174696F6E2068797068656E20202020323535202020202020815D20202020202020202D> Tj T*
+<0920202020202062756C6C657420286D6964646C6520646F74292020202032363720202020202081A120202020202020206F> Tj T*
+<09202020202020616375746520616363656E74092020202020323634202020202020814C202020202020202027> Tj T*
+<092020202020206D756C7469706C69636174696F6E207369676E20202020333237202020202020817E202020202020202078> Tj T*
+() Tj T*
+(	      If  the  latin1  column displays correctly, your terminal may be set up for latin1 characters) Tj T*
+(	      and this option is not necessary.  If the latin1 and ascii columns  are  identical,  you	are) Tj T*
+(	      reading  this  page using this option or man did not format this page using the latin1 device) Tj T*
+(	      description.  If the latin1 column is missing or corrupt, you may need to view  manual  pages) Tj T*
+(	      with this option.) Tj T*
+() Tj T*
+(	      This  option  is	ignored  when  using options -t, -H, -T, or -Z and may be useless for nroff) Tj T*
+(	      other than GNU's.) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+27 0 obj
+<<
+/Length 3485
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(       -E encoding, --encoding=encoding) Tj T*
+(	      Generate output for a character encoding other than the default.	For backward compatibility,) Tj T*
+(	      encoding	may  be  an nroff device such as ascii, latin1, or utf8 as well as a true character) Tj T*
+(	      encoding such as UTF-8.) Tj T*
+() Tj T*
+(       --no-hyphenation, --nh) Tj T*
+(	      Normally, nroff will automatically hyphenate text at line breaks even in words  that  do	not) Tj T*
+(	      contain  hyphens,  if  it  is necessary to do so to lay out words on a line without excessive) Tj T*
+(	      spacing.	This option disables automatic hyphenation, so words will  only  be  hyphenated  if) Tj T*
+(	      they already contain hyphens.) Tj T*
+() Tj T*
+(	      If  you are writing a manual page and simply want to prevent nroff from hyphenating a word at) Tj T*
+(	      an inappropriate point, do not use this option, but consult the nroff documentation  instead;) Tj T*
+(	      for  instance,  you  can put "\\%" inside a word to indicate that it may be hyphenated at that) Tj T*
+(	      point, or put "\\%" at the start of a word to prevent it from being hyphenated.) Tj T*
+() Tj T*
+(       --no-justification, --nj) Tj T*
+(	      Normally, nroff will automatically justify text to both margins.	This option  disables  full) Tj T*
+(	      justification,  leaving  justified  only	to the left margin, sometimes called "ragged-right") Tj T*
+(	      text.) Tj T*
+() Tj T*
+(	      If you are writing a manual page and simply want to prevent  nroff  from	justifying  certain) Tj T*
+(	      paragraphs,  do  not  use  this  option,	but  consult  the  nroff documentation instead; for) Tj T*
+(	      instance, you can use the ".na", ".nf", ".fi", and  ".ad"  requests  to  temporarily  disable) Tj T*
+(	      adjusting and filling.) Tj T*
+() Tj T*
+(       -p string, --preprocessor=string) Tj T*
+<092020202020205370656369667920207468652073657175656E6365206F662070726570726F636573736F727320746F2072756E206265666F7265206E726F6666206F722074726F66662F67726F66662E20204E6F7420616C6C20696E7374616C6C61815D> Tj T*
+(	      tions will have a full set of preprocessors.  Some of the preprocessors and the letters  used) Tj T*
+(	      to  designate  them  are:  eqn  \(e\), grap \(g\), pic \(p\), tbl \(t\), vgrind \(v\), refer \(r\).  This) Tj T*
+(	      option overrides the $MANROFFSEQ environment variable.  zsoelim is always  run  as  the  very) Tj T*
+(	      first preprocessor.) Tj T*
+() Tj T*
+(       -t, --troff) Tj T*
+<09202020202020557365202067726F666620202D6D616E646F6320746F20666F726D617420746865206D616E75616C207061676520746F207374646F75742E0954686973206F7074696F6E206973206E6F7420726571756972656420696E20636F6E815D> Tj T*
+(	      junction with -H, -T, or -Z.) Tj T*
+() Tj T*
+(       -T[device], --troff-device[=device]) Tj T*
+(	      This option is used to change groff \(or possibly troff's\) output to be suitable for a  device) Tj T*
+(	      other  than  the	default.   It implies -t.  Examples \(provided with Groff-1.17\) include dvi,) Tj T*
+(	      latin1, ps, utf8, X75 and X100.) Tj T*
+() Tj T*
+(       -H[browser], --html[=browser]) Tj T*
+(	      This option will cause groff to produce HTML output, and will display that output  in  a	web) Tj T*
+<0920202020202062726F777365722E095468652063686F696365206F662062726F777365722069732064657465726D696E656420627920746865206F7074696F6E616C2062726F7773657220617267756D656E74206966206F6E652069732070726F815D> Tj T*
+ET
+endstream
+endobj
+28 0 obj
+<<
+/Length 2228
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(	      vided, by the $BROWSER environment variable, or by a compile-time default if  that  is  unset) Tj T*
+(	      \(usually lynx\).  This option implies -t, and will only work with GNU troff.) Tj T*
+() Tj T*
+(       -X[dpi], --gxditview[=dpi]) Tj T*
+(	      This  option  displays the output of groff in a graphical window using the gxditview program.) Tj T*
+(	      The dpi \(dots per inch\) may be 75, 75-12, 100, or 100-12, defaulting to 75; the -12  variants) Tj T*
+(	      use  a  12-point	base  font.   This option implies -T with the X75, X75-12, X100, or X100-12) Tj T*
+(	      device respectively.) Tj T*
+() Tj T*
+(       -Z, --ditroff) Tj T*
+(	      groff will run troff and then use an appropriate post-processor to  produce  output  suitable) Tj T*
+(	      for  the	chosen	device.  If groff -mandoc is groff, this option is passed to groff and will) Tj T*
+(	      suppress the use of a post-processor.  It implies -t.) Tj T*
+() Tj T*
+(   Getting help) Tj T*
+(       -?, --help) Tj T*
+(	      Print a help message and exit.) Tj T*
+() Tj T*
+(       --usage) Tj T*
+(	      Print a short usage message and exit.) Tj T*
+() Tj T*
+(       -V, --version) Tj T*
+(	      Display version information.) Tj T*
+() Tj T*
+(EXIT STATUS) Tj T*
+(       0      Successful program execution.) Tj T*
+() Tj T*
+(       1      Usage, syntax or configuration file error.) Tj T*
+() Tj T*
+(       2      Operational error.) Tj T*
+() Tj T*
+(       3      A child process returned a non-zero exit status.) Tj T*
+() Tj T*
+(       16     At least one of the pages/files/keywords didn't exist or wasn't matched.) Tj T*
+() Tj T*
+(ENVIRONMENT) Tj T*
+(       MANPATH) Tj T*
+(	      If $MANPATH is set, its value is used as the path to search for manual pages.) Tj T*
+() Tj T*
+(       MANROFFOPT) Tj T*
+<0920202020202054686520636F6E74656E7473206F6620244D414E524F46464F50542061726520616464656420746F2074686520636F6D6D616E64206C696E652065766572792074696D65206D616E20696E766F6B6573207468652020666F726D6174815D> Tj T*
+(	      ter \(nroff, troff, or groff\).) Tj T*
+() Tj T*
+(       MANROFFSEQ) Tj T*
+(	      If  $MANROFFSEQ  is set, its value is used to determine the set of preprocessors to pass each) Tj T*
+ET
+endstream
+endobj
+29 0 obj
+<<
+/Length 3576
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(	      manual page through.  The default preprocessor list is system dependent.) Tj T*
+() Tj T*
+(       MANSECT) Tj T*
+<09202020202020496620244D414E53454354206973207365742C206974732076616C7565206973206120636F6C6F6E2D64656C696D69746564206C697374206F662073656374696F6E7320616E64206974206973207573656420746F20206465746572815D> Tj T*
+(	      mine  which  manual sections to search and in what order.  The default is "1 n l 8 3 2 3posix) Tj T*
+(	      3pm 3perl 3am 5 4 9 6 7", unless overridden by the SECTION directive in /etc/manpath.config.) Tj T*
+() Tj T*
+(       MANPAGER, PAGER) Tj T*
+(	      If $MANPAGER or $PAGER is set \($MANPAGER is used in preference\), its value  is  used  as	the) Tj T*
+(	      name of the program used to display the manual page.  By default, pager is used, falling back) Tj T*
+(	      to cat if pager is not found or is not executable.) Tj T*
+() Tj T*
+(	      The value may be a simple command name or a command with arguments, and may use shell quoting) Tj T*
+(	      \(backslashes,  single  quotes,  or  double quotes\).  It may not use pipes to connect multiple) Tj T*
+(	      commands; if you need that, use a wrapper script, which may take the file to  display  either) Tj T*
+(	      as an argument or on standard input.) Tj T*
+() Tj T*
+(       MANLESS) Tj T*
+(	      If  $MANLESS  is set, its value will be used as the default prompt string for the less pager,) Tj T*
+(	      as if it had been passed using the -r option \(so any occurrences of the text $MAN_PN will  be) Tj T*
+(	      expanded in the same way\).  For example, if you want to set the prompt string unconditionally) Tj T*
+<09202020202020746F2081676D792070726F6D707420737472696E6781682C2073657420244D414E4C45535320746F2081652D50736D792070726F6D707420737472696E6781662E20205573696E6720746865202D72206F7074696F6E20206F7665727269646573> Tj T*
+(	      this environment variable.) Tj T*
+() Tj T*
+(       BROWSER) Tj T*
+(	      If $BROWSER is set, its value is a colon-delimited list of commands, each of which in turn is) Tj T*
+(	      used to try to start a web browser for man --html.  In each command,  %s	is  replaced  by  a) Tj T*
+(	      filename	containing the HTML output from groff, %% is replaced by a single percent sign \(%\),) Tj T*
+(	      and %c is replaced by a colon \(:\).) Tj T*
+() Tj T*
+(       SYSTEM If $SYSTEM is set, it will have the same effect as if it had been specified as  the  argument) Tj T*
+(	      to the -m option.) Tj T*
+() Tj T*
+(       MANOPT If  $MANOPT  is set, it will be parsed prior to man's command line and is expected to be in a) Tj T*
+(	      similar format.  As all of the other man specific environment variables can be  expressed  as) Tj T*
+(	      command  line  options,  and are thus candidates for being included in $MANOPT it is expected) Tj T*
+(	      that they will become obsolete.  N.B.  All spaces that should be interpreted as  part  of  an) Tj T*
+(	      option's argument must be escaped.) Tj T*
+() Tj T*
+(       MANWIDTH) Tj T*
+(	      If  $MANWIDTH  is  set, its value is used as the line length for which manual pages should be) Tj T*
+(	      formatted.  If it is not set, manual pages will be formatted with a line	length	appropriate) Tj T*
+(	      to  the  current	terminal \(using the value of $COLUMNS, an ioctl\(2\) if available, or falling) Tj T*
+(	      back to 80 characters if neither is available\).  Cat  pages  will  only  be  saved  when	the) Tj T*
+(	      default  formatting  can	be used, that is when the terminal line length is between 66 and 80) Tj T*
+ET
+endstream
+endobj
+30 0 obj
+<<
+/Length 2839
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+(	      characters.) Tj T*
+() Tj T*
+(       MAN_KEEP_FORMATTING) Tj T*
+<092020202020204E6F726D616C6C792C207768656E206F7574707574206973206E6F74206265696E6720646972656374656420746F2061207465726D696E616C20287375636820617320746F20612066696C65206F7220612070697065292C20666F72815D> Tj T*
+(	      matting  characters are discarded to make it easier to read the result without special tools.) Tj T*
+(	      However, if $MAN_KEEP_FORMATTING is set to any non-empty value, these  formatting  characters) Tj T*
+<092020202020206172652072657461696E65642E202054686973206D61792062652075736566756C20666F722077726170706572732061726F756E64206D616E20746861742063616E20696E7465727072657420666F726D617474696E672063686172815D> Tj T*
+(	      acters.) Tj T*
+() Tj T*
+(       MAN_KEEP_STDERR) Tj T*
+(	      Normally, when output is being directed to a terminal \(usually to a pager\), any error  output) Tj T*
+(	      from  the  command  used	to produce formatted versions of manual pages is discarded to avoid) Tj T*
+(	      interfering with the pager's display.  Programs such as groff often produce relatively  minor) Tj T*
+(	      error  messages  about typographical problems such as poor alignment, which are unsightly and) Tj T*
+(	      generally confusing when displayed along with the manual page.  However, some users  want  to) Tj T*
+(	      see  them anyway, so, if $MAN_KEEP_STDERR is set to any non-empty value, error output will be) Tj T*
+(	      displayed as usual.) Tj T*
+() Tj T*
+(       LANG, LC_MESSAGES) Tj T*
+(	      Depending on system and implementation, either or both of  $LANG	and  $LC_MESSAGES  will  be) Tj T*
+(	      interrogated  for  the  current message locale.  man will display its messages in that locale) Tj T*
+(	      \(if available\).  See setlocale\(3\) for precise details.) Tj T*
+() Tj T*
+(FILES) Tj T*
+(       /etc/manpath.config) Tj T*
+(	      man-db configuration file.) Tj T*
+() Tj T*
+(       /usr/share/man) Tj T*
+(	      A global manual page hierarchy.) Tj T*
+() Tj T*
+(       /usr/share/man/index.\(bt|db|dir|pag\)) Tj T*
+(	      A traditional global index database cache.) Tj T*
+() Tj T*
+(       /var/cache/man/index.\(bt|db|dir|pag\)) Tj T*
+(	      An FHS compliant global index database cache.) Tj T*
+() Tj T*
+(SEE ALSO) Tj T*
+(       apropos\(1\), groff\(1\), less\(1\), manpath\(1\), nroff\(1\), troff\(1\), whatis\(1\), zsoelim\(1\),  setlocale\(3\),) Tj T*
+(       manpath\(5\), ascii\(7\), latin1\(7\), man\(7\), catman\(8\), mandb\(8\), the man-db package manual, FSSTND) Tj T*
+() Tj T*
+(HISTORY) Tj T*
+(       1990, 1991 ? Originally written by John W. Eaton \(jwe@che.utexas.edu\).) Tj T*
+() Tj T*
+(       Dec   23   1992:  Rik  Faith  \(faith@cs.unc.edu\)  applied  bug  fixes  supplied	by  Willem  Kasdorp) Tj T*
+(       \(wkasdo@nikhefk.nikef.nl\).) Tj T*
+ET
+endstream
+endobj
+31 0 obj
+<<
+/Length 670
+>>
+stream
+1. 0. 0. 1. 50. 770. cm
+BT
+/F0 12 Tf
+16 TL
+() Tj T*
+(       30th April 1994 ? 23rd February 2000: Wilf.  \(G.Wilford@ee.surrey.ac.uk\)  has  been  developing	and) Tj T*
+(       maintaining this package with the help of a few dedicated people.) Tj T*
+() Tj T*
+(       30th  October 1996 ? 30th March 2001: Fabrizio Polacco <fpolacco@debian.org> maintained and enhanced) Tj T*
+(       this package for the Debian project, with the help of all the community.) Tj T*
+() Tj T*
+(       31st March 2001 ? present day: Colin Watson <cjwatson@debian.org> is now developing and	maintaining) Tj T*
+(       man-db.) Tj T*
+() Tj T*
+(2.8.3						 2018-04-05					     MAN\(1\)) Tj T*
+ET
+endstream
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000000064 00000 n 
+0000000208 00000 n 
+0000000358 00000 n 
+0000000539 00000 n 
+0000000721 00000 n 
+0000000826 00000 n 
+0000000931 00000 n 
+0000001036 00000 n 
+0000001141 00000 n 
+0000001246 00000 n 
+0000001351 00000 n 
+0000001457 00000 n 
+0000001563 00000 n 
+0000001669 00000 n 
+0000001775 00000 n 
+0000001881 00000 n 
+0000001987 00000 n 
+0000002093 00000 n 
+0000002199 00000 n 
+0000005447 00000 n 
+0000008466 00000 n 
+0000012767 00000 n 
+0000016948 00000 n 
+0000019623 00000 n 
+0000023003 00000 n 
+0000026232 00000 n 
+0000029116 00000 n 
+0000032633 00000 n 
+0000036171 00000 n 
+0000038452 00000 n 
+0000042081 00000 n 
+0000044973 00000 n 
+trailer
+<<
+/Size 34
+/Root 1 0 R
+>>
+startxref
+45695
+%%EOF

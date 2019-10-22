@@ -1,6 +1,6 @@
 // https://itchyny.hatenablog.com/entry/2015/09/16/100000
 // texttopdf.hsをRustに移植したもの。
-use std::collections::HashMap;
+use encoding_rs::*;
 
 #[derive(Debug, Clone)]
 pub enum PDFElem {
@@ -32,6 +32,11 @@ pub fn render_elem(e: &PDFElem) -> String {
             .replace(r#")"#, r#"\)"#)
     };
 
+    let escape_string_with_encoding = |s: &str| -> String {
+        let (cow, encoding_used, had_errors) = SHIFT_JIS.encode(s);
+        cow.iter().map(|c| format!("{:02X}", c)).collect::<String>()
+    };
+
     let escape_name = |s: &str| -> String {
         s.chars().map(|c: char| {
             if c < '!' || c > '~' || c == '#' {
@@ -41,12 +46,17 @@ pub fn render_elem(e: &PDFElem) -> String {
             }
         }).collect::<Vec<String>>().join("")
     };
+
+    let is_ascii_string = |s: String| -> bool {
+        s.chars().all(|c| c.is_ascii())
+    };
     match e {
         PDFElem::Null => "null".to_string(),
         PDFElem::Bool(true) => "true".to_string(),
         PDFElem::Bool(false) => "false".to_string(),
         PDFElem::Int(i) => i.to_string(),
-        PDFElem::String(s) => "(".to_string() + escape_string(s.as_str()).as_str() + ")",
+        PDFElem::String(s) if is_ascii_string(s.clone()) => "(".to_string() + &escape_string(&s) + ")",
+        PDFElem::String(s) => "<".to_string() + &escape_string_with_encoding(&s) + ">",
         PDFElem::Name(s) => format!("/{}", escape_name(s)),
         PDFElem::Ref(n) => n.to_string() + " 0 R",
         PDFElem::Array(l) => format!("[{}]", l.iter().map(|o: &PDFElem| render_elem(&o)).collect::<Vec<String>>().join(" ")),
@@ -205,8 +215,10 @@ pub fn text_to_pdf(texts: Vec<Vec<String>>) -> PDFFile {
 
     let font_dict_f0 = vec![
         new_dict("Type", PDFElem::Name("Font".to_string())),
-        new_dict("BaseFont", PDFElem::Name("Times-Roman".to_string())),
-        new_dict("Subtype", PDFElem::Name("Type1".to_string())),
+        new_dict("BaseFont", PDFElem::Name("KozMinPro6N-Regular".to_string())),
+        new_dict("Subtype", PDFElem::Name("Type0".to_string())),
+        new_dict("Encoding", PDFElem::Name("90ms-RKSJ-H".to_string())),
+        new_dict("DescendantFonts", PDFElem::Array(vec![PDFElem::Ref(4)])),
     ];
     let font_dict = vec![
         new_dict("F0", PDFElem::Dict(font_dict_f0)),
@@ -215,6 +227,40 @@ pub fn text_to_pdf(texts: Vec<Vec<String>>) -> PDFFile {
         new_dict("Font", PDFElem::Dict(font_dict)),
     ];
     let font = PDFObj {n: 3, elem: PDFElem::Dict(dict)};
+
+    let cidfont = PDFObj {
+        n: 4,
+        elem: PDFElem::Dict(
+            vec![
+                new_dict("Type", PDFElem::Name("Font".to_string())),
+                new_dict("Subtype", PDFElem::Name("CIDFontType0".to_string())),
+                new_dict("BaseFont", PDFElem::Name("KozMinPro6N-Regular".to_string())),
+                new_dict("CIDSystemInfo", PDFElem::Dict(vec![
+                    new_dict("Registry", PDFElem::String("Adobe".to_string())),
+                    new_dict("Ordering", PDFElem::String("Japan1".to_string())),
+                    new_dict("Supplement", PDFElem::Int(6)),
+                ])),
+                new_dict("FontDescriptor", PDFElem::Ref(5)),
+            ]
+        ),
+    };
+
+    let fontdescriptor = PDFObj {
+        n: 5,
+        elem: PDFElem::Dict(
+            vec![
+                new_dict("Type", PDFElem::Name("FontDescriptor".to_string())),
+                new_dict("FontName", PDFElem::Name("KozMinPro6N-Regular".to_string())),
+                new_dict("Flags", PDFElem::Int(6)),
+                new_dict("FontBBox", PDFElem::Array( [-437, -340, 1147, 1317].iter().map(|&i| PDFElem::Int(i as i64)).collect() )),
+                new_dict("ItalicAngle", PDFElem::Int(0)),
+                new_dict("Ascent", PDFElem::Int(1317)),
+                new_dict("Descent", PDFElem::Int(-349)),
+                new_dict("CapHeight", PDFElem::Int(742)),
+                new_dict("StemV", PDFElem::Int(80)),
+            ]
+        ),
+    };
 
     let mut pages = vec![];
     for i in m..m+n {
@@ -247,6 +293,8 @@ pub fn text_to_pdf(texts: Vec<Vec<String>>) -> PDFFile {
     objlist.push(catalog);
     objlist.push(top_page);
     objlist.push(font);
+    objlist.push(cidfont);
+    objlist.push(fontdescriptor);
     objlist.extend(pages);
     objlist.extend(contents);
     PDFFile {
